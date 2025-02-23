@@ -8,10 +8,19 @@ const data = [
     {name : "Entertainment", value:100},
     {name : "Savings", value:400},
 ];
+const calculateTotal = (items) =>{
+    let total = 0;
+    for(const item of items){
+        total += item.value;
+    }
+    return total;
+}
+export const totalSum = calculateTotal(data);
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "#A28DFF"];
 
 const BudgetChart = () =>{
     return(
+        <div>
         <PieChart width = {300} height={300}>
         <Pie
         data = {data}
@@ -29,6 +38,7 @@ const BudgetChart = () =>{
         <Tooltip/>
         <Legend/>
         </PieChart>
+        </div>
     );
 };
 

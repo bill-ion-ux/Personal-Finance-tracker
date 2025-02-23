@@ -1,12 +1,16 @@
 import React from 'react'
 import BudgetChart from './BudgetChart'
+import '../Styles/home.css'
+import {totalSum } from './BudgetChart'
+
+
 
 function home() {
   return (
     <div>
-    <h1>Budget Overview</h1>
+    <h3>Budget Overview</h3>
     <BudgetChart/>
-    
+    <div className= "sum">Total : {totalSum}</div>
     </div>
   )
 }
