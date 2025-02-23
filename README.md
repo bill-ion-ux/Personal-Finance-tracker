@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Personal-Finance-tracker
+100 projects challenge #1 with @Kearskill
+* Build a web app using react to track income,expenses, and savings.
+* Get Started: Use React for the frontend, Node.js for backend logic, and MongoDB to
+store financial records. Add charts with Chart.js to visualize spending habits.
+>>>>>>> 7906f929c054d64336da69cce7a77c156b7525a9
