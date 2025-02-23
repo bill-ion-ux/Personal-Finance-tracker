@@ -1,8 +1,13 @@
 import React from 'react'
+import BudgetChart from './BudgetChart'
 
 function home() {
   return (
-    <div>hello worlds</div>
+    <div>
+    <h1>Budget Overview</h1>
+    <BudgetChart/>
+    
+    </div>
   )
 }
 
