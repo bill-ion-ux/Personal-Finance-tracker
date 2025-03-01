@@ -14,6 +14,19 @@ function home() {
     <div className= "sum">Total : {totalSum}</div>
     </div>
     <div>
+      <h3>Income and Expenses</h3>
+      <div className="income-expense">
+        <div className="income">
+          <h4>Income</h4>
+          <p>RM 5000</p>
+        </div>
+        <div className="expense">
+          <h4>Expense</h4>
+          <p>RM 1900</p>
+        </div>
+        </div>
+    </div>
+    <div>
       <h3>List of account</h3>
       <div className="account">
         <div className="account-item">
